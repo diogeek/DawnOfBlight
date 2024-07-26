@@ -1,29 +1,78 @@
 # Dawn of Blight
 
+## Système de d'actions / combat
+
+<details>
+<summary></summary>
+Chaque tour représente 6 secondes, pendant lesquelles chaque Héros peut des actions selon des règles définies :
+
+<ul>
+<li>Le personnage peut :
+<ul>
+<li>Se déplacer de 30ft (~9m)</li>
+<li>Effectuer une **Action Simple** (AS)</li>
+<li>Effectuer une **Action Rapide** (AR)</li>
+</ul></li>
+OU
+<li>Effectuer une **Action Lente** (AL), qui lui prendra le tour entier, l'immobilisant ou le déplaçant différemment d'un mouvement normal.</li>
+</ul>
+
+Les Héros ont aussi une et une seule (à l'exception de l'Adepte, du Maître d'armes se remémorant sa Prestance et du Corrompu souffrant l'affliction du Jumeau, qui en ont deux) **Réaction** (R) par tour de jeu, leur permettant, alors que leur tour d'action est terminé, de réagir à une attaque ennemi ou un évènement de leur choix (à la discrétion du DM).
+
+Dans de rares cas, un Héros pourra effectuer une **Action Héroïque** (AH). Ces actions sont caractérisées par le fait qu'elles nécessitent plusieurs tours pour être amenées à terme, parfois en restreignant le mouvement du Héros.
+</details>
+
 ## Personnages
 
-### Le Maître d'armes :
+<details>
+<summary></summary>
 
-Le maître d'armes est un guerrier expérimenté et durci par la guerre, dont l'expérience de combat peut être mesurée au nombre de cicatrices.
+### Le Maître d'armes
+<details>
+<summary></summary>
+##### Le Maître d'armes est un guerrier expérimenté et durci par la guerre, dont l'expérience de combat peut être mesurée au nombre de cicatrices.
 
-#### Passifs :
+#### Passifs au niveau 0 :
 
-Le maître d'armes est le seul personnage capable de porter plus de deux armes :
-Il possède un crochet dorsal 1 lourde, 1 lourde ou 2 légères, 1 légère.
-    lui et l'Ornementé sont les seuls à pouvoir utiliser des boucliers.
-    quatre arbres : 
-        arbre de l'art de combat (techniques genre tournoyer avec l'arme etc),
-        arbre de la force (techniques genre briser une garde avec une arme lourde),
-        arbre de la robustesse (tank, taunting),
-        arbre des souvenirs de combat (capacité à gérer plusieurs ennemis en même temps et force psychologique).
-    ils se rejoignent à chaque niveau, on peut passer de l'un à n'importe lequel des autres n'importe quand.
+<ul>
+<li>*Harnaché* : Le Maître d'armes est le seul personnage capable de porter plus de deux armes. Il est équipé de :
+	<ul>
+		<li>Un crochet dorsal, qui peut accueillir une arme lourde</li>
+		<li>Un fourreau de hanche, qui peut accueillir une arme lourde ou deux armes légères</li>
+		<li>Un fourreau lombaire, qui peut accueillir une arme légère à l'horizontale.</li>
+	</ul></li>
+<li>*Protecteur* : Le Maître d'armes est le seul, mis à part l'Ornementé, à pouvoir utiliser des boucliers.</li>
+<li>*Forgé par la guerre* : Le Maître d'armes, fort de son expérience au combat, a un bonus naturel de +1 à tous les jets d'attaque.</li>
+<li>*Polyvalence* : Les arbres de compétence du Maître d'armes se rejoignent à chaque niveau et ne requièrent pas d'adjacence avec la dernière compétence choisie, lui permettant de passer de l'un de ses arbres à n'importe lequel des autres n'importe quand.</li>
+</ul>
+
+#### Compétences Actives au niveau 0 :
+
+<ul>
+<li>*Feinte* : Il est aussi capable de déceler le potentiel d'une arme qu'un simple mercenaire ne verrait pas. Il peut donc utiliser son Action Rapide en plus de son Action Simple lorsqu'il attaque, pour attaquer avec un avantage.</li>
+<!-- TODO autres compétences actives ? -->
+</ul>
+
+#### Arbres de compétences :
+
+Le Maître d'armes a accès à quatre arbres de compétences :
+
+<ul>
+<li>*Souvenirs de l'art de combat* : Cet arbre permet au Maître d'armes de se remémorer des techniques qu'il a apprises au cours de sa vie. C'est ici que vous trouverez de nouvelles compétences requérant de l'agilité et de la maîtrise des armes.</li> <!-- genre tournoyer avec l'arme etc -->
+<li>*Souvenirs de force* : Cet arbre contient tous les souvenirs des exploits de force que le Maître d'armes a un jour atteint. Dans cet arbre de compétences, vous trouverez des compétences nécessitant de la force brute, utiles en combat comme ailleurs.</li> <!-- techniques genre briser une garde avec une arme lourde, ou une porte avec un coup de pied. Actions Lentes -->
+<li>*Souvenirs de robustesse* : Cet arbre représente tous les souvenirs des jours anciens où le maître d'arme était solide. Vous retrouverez ici des compétences améliorant la longévité du Héros ou permettant de faire de lui le centre d'attention des rangs ennemis.</li> <!-- (tank, taunting -->
+<li>*Souvenirs de prestance* : Cet arbre est rempli de souvenirs de jours où le Maître d'armes a prouvé ses capacités sur le champ de bataille, faisant résonner son nom dans toutes les bouches des comptés du Dawn. Il présente les compétences permettant au Héros de combattre contre des ennemis multiples et d'utiliser sa présence elle-même comme une arme. <!-- capacité à gérer plusieurs ennemis en même temps et force psychologique -->
+</ul>
+
+</details>
+
 
 Le Corrompu :
     warlock infecté par une entité d'une autre dimension
     trois arbres :
-        arbre du condamné (ton entité prend le contrôle de ton esprit),
-        arbre du jumeau (tu cohabites et peux parler à ton entité),
-        arbre du démoniste (tu maîtrises l'entité, la réduisant à des sorts de divination et de destruction qui requièrent quand même une conscience)
+        affliction du condamné (ton entité prend le contrôle de ton esprit),
+        affliction du jumeau (tu cohabites et peux parler à ton entité),
+        affliction du démoniste (tu maîtrises l'entité, la réduisant à des sorts de divination et de destruction qui requièrent quand même une conscience)
     sorts ponts :
         condamné / jumeau : l'entité peut te remplacer pendant un temps, mais tu restes là
         jumeau / démoniste : tu obliges l'entité à se battre pour toi mais elle est consciente
@@ -75,3 +124,5 @@ L'Ornementé (Paladin, protecteur : corps en armure toujours, vraiment lent) arb
 Le Fou (Barde, danseur, se bat en dansant, possède des branchies qui échoent de la musique comme une sirène) (armure orange légère à la Nod dans Epic de disney, avec des colliers de cou oranges / or)
 
 chaque arbre de compétences donne X points qui peuvent être partagés : exemple si tu passes niveau 5, t'as 5 points, tu peux prendre un truc niveau 5 ou un 4 et un 1 ou un 2 et un autre 2 et un 1 peu importe, mais tu dois tout dépenser à chaque niveau pas le choix. tu peux dépenser le prix d'un sort + 1 pour l'avoir sans avoir ceux qui le lient à celui où t'es
+
+</details>
