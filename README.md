@@ -279,6 +279,7 @@ Emplacements :
 ### Le Corrompu
 <details>
 <summary></summary>
+
 ##### Le Corrompu est un mercenaire au triste destin, dont le corps et l'âme sont infectés par une Entité venue d'un Ailleurs inconnu.
 
 #### Passifs au niveau 0 :
@@ -320,6 +321,7 @@ Les arbres du Corrompu se rejoignent à certaines compétences "ponts" :
 ### L'Érudit
 <details>
 <summary></summary>
+
 ##### L'Érudit est un prodige de la Tour de l'Aube, formé dans les arts des quatre écoles de magie.
 
 #### Passifs au niveau 0 :
@@ -358,6 +360,7 @@ ouverture / contrôle : liaisons entre les esprits de ses potes (entre eux ou av
 ### La Brute
 <details>
 <summary></summary>
+
 ##### La Brute est un ogre monstrueux aux origines volcaniques singulières, qui frappe avant de parler et agit avant de réfléchir.
 
 #### Passifs au niveau 0 :
@@ -390,6 +393,7 @@ La Brute possède deux arbres de compétences :
 ### L'Adepte
 <details>
 <summary></summary>
+
 ##### L'Adepte est un pieux moine guidé par sa foi. Sa spiritualité est l'origine de sa force et fait de lui la preuve vivante que cette force peut prévaloir sur celle du corps. Les arts martiaux aident pas mal.
 
 #### Passifs au niveau 0 :
@@ -424,6 +428,7 @@ Les arbres de compétences se rejoignent sur certaines compétences ponts, qui m
 ### L'Exilé
 <details>
 <summary></summary>
+
 ##### L'Exilé est un marin épéiste originaire d'une île de l'Archipel des Météores à l'Est des comtés du Dawn, dans le Bord de l'Ici. Son passé est brumeux, mais il ne tient pas son nom de nulle part.
 
 #### Passifs au niveau 0 :
