@@ -72,42 +72,72 @@ Certains peuples nient l'existence de la magie dans son ensemble, comme les moin
 <details>
 <summary></summary>
 
- - Toutes les armes de départ sont tirées de [ce site web](https://www.dandwiki.com/wiki/5e_SRD:Weapons).
+ - La plupart des armes de départ sont tirées de [ce site web](https://www.dandwiki.com/wiki/5e_SRD:Weapons).
  - Elles gardent leurs statistiques de base, si ce n'est le poids qui est géré différement dans Dawn of Blight.
  - Les Armes Super-Lourdes prennent une AS à dégainer, et les autres une AR. Les Armes de lancer Légères peuvent être dégainées et lancées en une seule AS. Sinon, deux AR peuvent être utilisées pour les dégainer puis les jeter.
  - Sont considérées "à distance" les armes utilisables seulement à distance.
  - Sont considérées "martiales" les armes définies comme telles dans le lien présent ci-dessus ou, pour celles qui en sont absentes, à la discrétion du DM. Les armes martiales sont restreintes au Maître d'Armes, l'Exilé, l'Ornementé et le Fou grâce à la compétence passive *Entraîné*.
  - Seuls le Maître d'Armes et l'Ornementé peuvent utiliser des boucliers grâce à la compétence passive *Protecteur*. Porter un bouclier limite les déplacements, ce qui est traduit dans Dawn of Blight par une limitation qui n'est évitable dans aucun cas d'une seule Réaction par tour.
- - Les armes et boucliers n'ayant pas de stats proviennent du lien présent ci-dessus, leurs stats sont donc disponibles là-bas. Celles en ayant sont donc importées d'autres sources ou crées de toutes pièces par moi-même.
+ - Les armes et boucliers n'ayant pas de stats proviennent du lien présent ci-dessus, leurs stats sont donc disponibles là-bas. Celles en ayant sont donc importées d'autres sources, des versions modifiées d'armes du lien ou sont crées de toutes pièces par moi-même.
+ - Les armes "désarmantes" confèrent un avantage lors d'une tentative de désarmement dû à leurs formes.
 
-### Armes de mêlée
+Concernant les armes Super-Lourdes :
+ - Les armes "lentes" utilisent des AL au lieu d'AS, et des AS au lieu d'AR.
+ - Les dés des armes "fiables" sont roulés à nouveau si tous tombent sur un 1.
+ - Les dés de dégâts des armes avec le modificateur "Momentum" sont explosifs : ils sont roulés à nouveau en ajoutant les dégâts s'ils tombent sur la valeur maximale.
+
+### Armes Super-Lourdes de mêlée
 
 <details>
 <summary></summary>
 
-#### Armes Super-Lourdes :
+Cette catégorie d'armes est restreinte d'utilisation à La Brute.
 
+ - Maul : 1d12+1d4 contondant - Fiable <!-- total : 16+1, min 3 - a perdu le +1 au profit d'un Fiable (moins fort) car le d4 est plus reliable donc elle n'a plus besoin d'un aussi gros buff qu'avant -->
+ - Lance de cavalerie : 4d4 perçant <!-- total : 16, min 4 -->
+ - Massue lourde : 4d4 contondant <!-- total : 16, min 4 -->
+ - Gantelets : 2d8 contondant - Fiable <!-- total : 16, min 3 -->
+ - Hache géante : 3d8 tranchant - Lent - Momentum <!-- total : 24, min 4 -->
+ - Tueur de dragons : 4d6 contondant - Lent - Momentum <!-- total : 24, min 4 -->
+ - Fléau Hydre : 5d6 contondant - Lent <!-- total : 30, min 5 -->
+ - Marteau Brise-roche : 3d10+1 contondant - Lent <!-- total : 30+1, min 4 -->
+ 
+<!-- Valeurs basses :
 
- - Massue lourde
+ - Maul : 1d12+1 contondant : total 12+1, min 2
+ - Lance de cavalerie : 3d4 perçant : total 12, min 3
+ - Massue lourde : 3d4 contondant : total 12, min 3
+ - Gantelets : 2d6 contondant - Fiable : total 12, min 3
+ - Grande hache : 3d6 tranchant - Lent - Momentum : total 18, min 3
+ - Tueur de dragons : 3d6 contondant - Lent - Momentum : total 18, min 3
+ - Fléau quadruple : 4d6 contondant - Lent : total 24, min 4
+ - Marteau Brise-roche : 2d12+1 contondant - Lent : total 24+1, min 3
+ 
+ mais c'était pas assez fort par rapport aux armes lourdes normales
+ 
+ -->
+ 
+<!-- plus de petits dés = reliable donc plus de dégâts en moyenne que peu de gros dés, donc le second cas est buff pour égaliser. voir https://dice.clockworkmod.com/ et https://www.reddit.com/r/dndmemes/comments/clplas/an_analysis_of_1d12_vs_2d6_and_3d4_after_1000000/ -->
+ 
+</details>
 
+### Armes simples de mêlée
+
+<details>
+<summary></summary>
 
 #### Armes Lourdes :
 
-
  - Masse d'armes
-
 
 #### Armes Moyennes :
 
-
+ - Massue
  - Bâton
  - Lance
  - Arbalète légère
- - Massue
-
 
 #### Armes Légères :
-
 
  - Dague
  - Hachette
@@ -117,8 +147,7 @@ Certains peuples nient l'existence de la magie dans son ensemble, comme les moin
  - Arc court
  - Fronde
  - Faucille
-
-
+ 
 </details>
 
 ### Armes martiales de mêlée
@@ -126,47 +155,35 @@ Certains peuples nient l'existence de la magie dans son ensemble, comme les moin
 <details>
 <summary></summary>
 
-##### Armes Super-Lourdes
-
-
- - Grande hache
- - Maul
- - Marteau de guerre
-
-
 ##### Armes Lourdes
-
 
  - Hache de combat
  - Fléau
- - Fauchard
+ - Fauchard : 1d10 tranchant *ou* perçant
  - Grande épée
- - Hallebarde
- - Lance de cavalerie
+ - Hallebarde : 2d6 tranchant *ou* perçant
  - Étoile du matin
  - Pic
  - Pic de guerre
  - Arbalète lourde
  - Arc long
-
+ - Cordelame : 1d8 tranchant
 
 ##### Armes Moyennes
-
 
  - Épée longue
  - Rapière
  - Cimeterre
  - trident
  - Fouet
-
+ - Khopesh : 1d6 tranchant - Désarmant
 
 ##### Armes Légères
 
-
- - Épée courte
- - Sarbacane
+ - Épée courte : 1d6 tranchant *ou* perçant
+ - Sarbacane : 1d2 perçant
  - Arbalète à main
-
+ - Dague de parade : 1d4 perçant - Désarmant
 
 </details>
 
@@ -177,9 +194,7 @@ Certains peuples nient l'existence de la magie dans son ensemble, comme les moin
 
 #### Armes Moyennes :
 
-
  - Arbalète légère
-
 
 #### Armes Légères :
 
