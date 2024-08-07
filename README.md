@@ -592,7 +592,7 @@ Ses arbres de compétences se rejoignent régulièrement sur des compétences po
 | 4 | L'attaque touche une germe infectée qui détruisait le corps du Martyre. Roulez un d6. Sur un 5, le Martyre ne prend que la moitié des dégâts reçus. Sur un 6, le Martyre n'en prend aucun. Autrement, le Martyre prend les dégâts comme donnés par l'attaque. |
 <!-- Nature Instable II : si le martyre prend plus de 15 dégâts d'un coup, il roule 2 fois -- III : si le martyre prend 25 dégâts d'un coup, il roule 3 fois -->
 
-- *Sacrifice* : Le Martyre est déchiré par les années de destruction par la nature. Plus il souffre, plus il peut produire de dégâts.
+ - *Sacrifice* : Le Martyre est déchiré par les années de destruction par la nature. Plus il souffre, plus il peut produire de dégâts.
  - *Faune Empathique* : La faune comprend la souffrance du Martyre et est plus prompte à suivre ses chants et ses paroles. <!-- proficiency à jets de animal handling -->
  - *Flore Apathique* : La flore, bien qu'elle soit la source de ses souffrances, est connue du Martyre. Il sait faire profit de ces connaissances. <!-- proficiency à jets de Nature et Survival -->
 
